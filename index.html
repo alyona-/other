@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Прогрессия и число Фибоначчи</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="main_style.css">
+    <script type="text/javascript" src="main_script.js"></script>
+</head>
+<body>
+<div>
+    <h3>Прогрессия:</h3>
+    <label for="number" class="geolab">Введите первый член прогрессии:</label>
+    <input type="text" id="number" class="geoinput">
+    <label for="factor" class="geolab">Введите коэффициент прогрессии:</label>
+    <input type="text" id="factor" class="geoinput">
+    <label for="element" class="geolab">Номер элемента прогрессии:</label>
+    <input type="text" id="element" class="geoinput">
+    <br>
+    <input type="submit" value="Найти" class="button" onclick="click_progreccia()">
+    <h5>Результат:</h5>
+    <p class="inner_text"></p>
+</div>
+
+<div>
+    <h3>Число Фибоначчи:</h3>
+    <label for="fib" class="fiblabel">Введите номер числа в последовательности:</label>
+    <input type="text" id="fib" class="fibinput">
+    <br>
+    <input type="submit" value="Найти" class="button" onclick="click_fib()">
+    <h5>Результат:</h5>
+    <p class="inner_text"></p>
+</div>
+</body>
+</html>
